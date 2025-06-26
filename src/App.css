@@ -1,0 +1,143 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Vite/React Logo Styles (optional) */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Flashcards App Styling */
+.app {
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #333;
+  border: 2px solid #444;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease-in-out;
+}
+
+.card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.input-section input {
+  padding: 0.7rem;
+  border-radius: 6px;
+  border: none;
+  width: 60%;
+  font-size: 1rem;
+}
+
+.input-section button {
+  width: 30%;
+  min-width: 100px;
+}
+
+.feedback {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.feedback.correct {
+  color: #38e38e;
+}
+
+.feedback.incorrect {
+  color: #f23d4c;
+}
+
+.navigation {
+  margin-top: 1rem;
+}
+
+.navigation button {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.navigation button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.streaks {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.stretch-buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.stretch-buttons button {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+.mastered-list {
+  margin-top: 2rem;
+  padding: 1rem;
+  border-top: 1px solid #444;
+  color: #aaa;
+}
+
+.mastered-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.mastered-list li {
+  margin: 0.25rem 0;
+}
